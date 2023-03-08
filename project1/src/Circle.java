@@ -18,7 +18,7 @@ public class Circle {
     }
 
     public double calculatePerimeter(){
-        return radius*2;
+        return radius*2*Math.PI;
     }
 
     public double calculateArea(){
